@@ -1,0 +1,36 @@
+{
+  // Open omop_etl/ as the VS Code folder, run `source ../env.sh` there once, and pick ../.venv/bin/python as the
+  // interpreter. The demo configurations read config.demo.local.yaml (gitignored): sources.mimic4 = the MIMIC-IV demo,
+  // and an out_dir of its own.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "omop_etl: stage mimic4 (demo)",
+      "type": "debugpy", "request": "launch", "module": "omop_etl",
+      "args": ["stage", "--dataset", "mimic4", "--config", "config.demo.local.yaml"],
+      "cwd": "${workspaceFolder}", "justMyCode": false
+    },
+    {
+      "name": "omop_etl: cdm (demo)",
+      "type": "debugpy", "request": "launch", "module": "omop_etl",
+      "args": ["cdm", "--config", "config.demo.local.yaml"],
+      "cwd": "${workspaceFolder}", "justMyCode": false
+    },
+    {
+      "name": "omop_etl: step from prompt",
+      "type": "debugpy", "request": "launch", "module": "omop_etl",
+      "args": ["${input:step}", "--dataset", "${input:dataset}", "--config", "${input:config}"],
+      "cwd": "${workspaceFolder}", "justMyCode": false
+    },
+    {
+      "name": "omop_etl: tests",
+      "type": "debugpy", "request": "launch", "module": "pytest",
+      "args": ["-x", "tests"], "cwd": "${workspaceFolder}", "justMyCode": false
+    }
+  ],
+  "inputs": [
+    {"id": "step", "type": "pickString", "options": ["convert", "stage", "validate"], "description": "step"},
+    {"id": "dataset", "type": "pickString", "options": ["mimic4", "eicu", "hirid"], "description": "dataset"},
+    {"id": "config", "type": "promptString", "default": "config.demo.local.yaml", "description": "config file"}
+  ]
+}

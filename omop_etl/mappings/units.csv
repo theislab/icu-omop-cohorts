@@ -1,0 +1,5 @@
+unit_string,unit_concept_id,unit_name
+mg/dl,8840,milligram per deciliter
+mg/l,8751,milligram per liter
+mmol/l,8753,millimole per liter
+meq/l,9557,milliequivalent per liter

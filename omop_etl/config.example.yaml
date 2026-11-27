@@ -1,0 +1,21 @@
+# Copy to config.local.yaml (gitignored) and fill in. Relative paths are relative to this file.
+
+# where every step writes: raw/<ds>/, staging/<ds>/, cdm/, _logs/, _tmp/
+out_dir: /path/to/omop-etl-output
+
+# the unzipped Athena download (CONCEPT.csv, tab-separated), see README.md
+vocabulary_dir: /path/to/athena-vocabulary
+
+# source releases, as downloaded from PhysioNet; leave out what you do not have
+sources:
+  mimic4: /path/to/physionet.org/files/mimiciv/3.1
+  eicu: /path/to/physionet.org/files/eicu-crd/2.0
+  hirid: /path/to/physionet.org/files/hirid/1.1.1
+
+# datasets the cdm step combines (default: every staged dataset among the sources)
+# datasets: [mimic4, eicu, hirid]
+
+# duckdb: memory_limit defaults to 75% of the SLURM allocation, threads to the job's cpus
+# duckdb:
+#   memory_limit: 90GB
+#   threads: 16

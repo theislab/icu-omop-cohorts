@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Datasets
+*.csv
+*.parquet
+*.tsv
+*.h5ad
+*.zip
+*.zip.*
+*.tar.gz
+*.data
+*.names
+*.xls
+*.rar
+*.csv.gz
+
+
+# leftovers of the retired BlendedICU ETL in older checkouts
+etl/
+# Logs
+*.log
+files
+processed_data
+# the MIMIC-IV demo that CI downloads (ci/get_mimic_iv_demo.sh)
+_data/
+# the work directory of `ci/demo.sh demo`
+/demo/
+
+# the paths and cluster settings of a checkout (config.example.env)
+config.env
+# SLURM logs of jobs submitted without -o
+slurm-*.out
+
+# Database files (DuckDB, SQLite) and DuckDB write-ahead logs
+*.db
+*.duckdb
+*.duckdb.wal
+
+# Patient-derived data from cohorts/ must never be committed
+*.npy
+*.npz
+*.pkl
+*.pt
+*.h5
+*.zarr
+
+# Hand-made mapping tables (config, not data) are tracked
+!omop_etl/mappings/*.csv
+!omop_etl/mappings/*/*.csv
+!omop_etl/schema/*.csv
+# the vocabulary fixture of the demo run: concept ids and domains, no patient data
+!omop_etl/tests/fixtures/vocabulary/*.csv

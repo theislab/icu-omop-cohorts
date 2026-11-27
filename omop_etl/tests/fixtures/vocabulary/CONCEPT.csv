@@ -1,0 +1,270 @@
+concept_id	concept_name	domain_id	vocabulary_id	concept_class_id	standard_concept	concept_code	valid_start_date	valid_end_date	invalid_reason
+0	No matching concept	Metadata	None	Undefined		No matching concept	19700101	20991231	
+8482	pH	Unit	UCUM	Unit	S	pH	19700101	20991231	
+8541	per minute	Unit	UCUM	Unit	S	/min	19700101	20991231	
+8554	percent	Unit	UCUM	Unit	S	%	19700101	20991231	
+8555	second	Unit	UCUM	Unit	S	s	19700101	20991231	
+8564	picogram	Unit	UCUM	Unit	S	pg	19700101	20991231	
+8582	centimeter	Unit	UCUM	Unit	S	cm	19700101	20991231	
+8583	femtoliter	Unit	UCUM	Unit	S	fL	19700101	20991231	
+8587	milliliter	Unit	UCUM	Unit	S	mL	19700101	20991231	
+8636	gram per liter	Unit	UCUM	Unit	S	g/L	19700101	20991231	
+8645	unit per liter	Unit	UCUM	Unit	S	[U]/L	19700101	20991231	
+8713	gram per deciliter	Unit	UCUM	Unit	S	g/dL	19700101	20991231	
+8725	nanogram per liter	Unit	UCUM	Unit	S	ng/L	19700101	20991231	
+8739	pound (US)	Unit	UCUM	Unit	S	[lb_us]	19700101	20991231	
+8749	micromole per liter	Unit	UCUM	Unit	S	umol/L	19700101	20991231	
+8751	milligram per liter	Unit	UCUM	Unit	S	mg/L	19700101	20991231	
+8753	millimole per liter	Unit	UCUM	Unit	S	mmol/L	19700101	20991231	
+8840	milligram per deciliter	Unit	UCUM	Unit	S	mg/dL	19700101	20991231	
+8842	nanogram per milliliter	Unit	UCUM	Unit	S	ng/mL	19700101	20991231	
+8848	thousand per microliter	Unit	UCUM	Unit	S	10*3/uL	19700101	20991231	
+8876	millimeter mercury column	Unit	UCUM	Unit	S	mm[Hg]	19700101	20991231	
+9289	degree Fahrenheit	Unit	UCUM	Unit	S	[degF]	19700101	20991231	
+9327	inch (international)	Unit	UCUM	Unit	S	[in_i]	19700101	20991231	
+9448	year	Unit	UCUM	Unit	S	a	19700101	20991231	
+9529	kilogram	Unit	UCUM	Unit	S	kg	19700101	20991231	
+9557	milliequivalent per liter	Unit	UCUM	Unit	S	10*-3.eq/L	19700101	20991231	
+9571	milliliter per kilogram	Unit	UCUM	Unit	S	mL/kg	19700101	20991231	
+32037	Intensive Care	Visit	Visit	Visit	S	OMOP4822460	19700101	20991231	
+32817	EHR	Type Concept	Type Concept	Type Concept	S	OMOP4976890	20200820	20991231	
+32865	Patient self-report	Type Concept	Type Concept	Type Concept	S	OMOP4976938	20200820	20991231	
+33136	Has associated visit (OMOP)	Metadata	Relationship	Relationship		OMOP generated	19700101	20991231	
+33137	Associated visit of (OMOP)	Metadata	Relationship	Relationship		OMOP generated	19700101	20991231	
+320128		Condition	SNOMED	Disorder	S		20020131	20991231	
+586323	degree Celsius	Unit	UCUM	Unit	S	Cel	19700101	20991231	
+700253		Drug	RxNorm	Ingredient	S		19700101	20991231	
+708298		Drug	RxNorm	Ingredient	S		19700101	20991231	
+711584		Drug	RxNorm	Ingredient	S		19700101	20991231	
+717136		Drug	RxNorm	Ingredient	S		19700101	20991231	
+725131		Drug	RxNorm	Ingredient	S		19700101	20991231	
+730729		Drug	RxNorm	Ingredient	S		19700101	20991231	
+734275		Drug	RxNorm	Ingredient	S		19700101	20991231	
+740910		Drug	RxNorm	Ingredient	S		19700101	20991231	
+753626		Drug	RxNorm	Ingredient	S		19700101	20991231	
+766529		Drug	RxNorm	Ingredient	S		19700101	20991231	
+785649		Drug	RxNorm	Ingredient	S		19700101	20991231	
+791967		Drug	RxNorm	Ingredient	S		19700101	20991231	
+798874		Drug	RxNorm	Ingredient	S		19700101	20991231	
+836208		Drug	RxNorm	Ingredient	S		19700101	20991231	
+902251		Drug	RxNorm	Ingredient	S		19700101	20991231	
+904453		Drug	RxNorm	Ingredient	S		19700101	20991231	
+904542		Drug	RxNorm	Ingredient	S		19700101	20991231	
+906780		Drug	RxNorm	Ingredient	S		19700101	20991231	
+914335		Drug	RxNorm	Ingredient	S		19700101	20991231	
+923645		Drug	RxNorm	Ingredient	S		19700101	20991231	
+924939		Drug	RxNorm	Ingredient	S		19700101	20991231	
+929887		Drug	RxNorm	Ingredient	S		19700101	20991231	
+932745		Drug	RxNorm	Ingredient	S		19700101	20991231	
+939506		Drug	RxNorm	Ingredient	S		19700101	20991231	
+943852		Drug	RxNorm	Ingredient	S		19700101	20991231	
+948078		Drug	RxNorm	Ingredient	S		19700101	20991231	
+953076		Drug	RxNorm	Ingredient	S		19700101	20991231	
+956874		Drug	RxNorm	Ingredient	S		19700101	20991231	
+961047		Drug	RxNorm	Ingredient	S		19700101	20991231	
+963889		Drug	RxNorm	Ingredient	S		20180402	20991231	
+967823		Drug	RxNorm	Ingredient	S		19700101	20991231	
+970250		Drug	RxNorm	Ingredient	S		19700101	20991231	
+975125		Drug	RxNorm	Ingredient	S		19700101	20991231	
+986417		Drug	RxNorm	Ingredient	S		19700101	20991231	
+989878		Drug	RxNorm	Ingredient	S		19700101	20991231	
+997881		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1000560		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1103314		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1103640		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1110410		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1112807		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1114220		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1124957		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1125315		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1126658		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1129625		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1135766		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1136980		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1139042		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1154029		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1174888		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1175625		Measurement	LOINC	Clinical Observation	S		20181214	20991231	
+1301025		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1301065		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1303425		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1307046		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1309204		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1309944		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1310149		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1318137		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1319133		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1321341		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1322199		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1322207		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1326303		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1327256		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1328165		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1332418		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1337720		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1337860		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1338985		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1340128		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1343916		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1344143		Drug	RxNorm	Ingredient	S		20090104	20991231	
+1346823		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1347450		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1351461		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1353776		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1354118		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1361711		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1367571		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1368671		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1373928		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1386957		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1398937		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1501700		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1502905		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1506270		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1507835		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1516976		Drug	RxNorm	Ingredient	S		20050724	20991231	
+1517070		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1518254		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1522957		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1539403		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1545958		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1550023		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1551099		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1560524		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1567198		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1596977		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1703687		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1707164		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1707687		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1709170		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1713332		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1714277		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1715117		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1717327		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1718054		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1734104		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1736887		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1742253		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1746114		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1746940		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1748975		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1754994		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1771162		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1776684		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1777806		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1778162		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1786617		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1790868		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1797513		Drug	RxNorm	Ingredient	S		19700101	20991231	
+1836430		Drug	RxNorm	Ingredient	S		19700101	20991231	
+3000483		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3000905		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3000963		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3001420		Measurement	LOINC	Lab Test	S		19981125	20991231	
+3004249		Measurement	LOINC	Clinical Observation	S		19960906	20991231	
+3004501		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3004809		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3004921		Measurement	LOINC	Clinical Observation	S		19700101	20991231	
+3005162		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3005785		Measurement	LOINC	Lab Test	S		19971104	20991231	
+3006140		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3006906		Measurement	LOINC	Lab Test	S		19980709	20991231	
+3006923		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3007194		Measurement	LOINC	Clinical Observation	S		19700101	20991231	
+3007220		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3007469		Measurement	LOINC	Clinical Observation	S		19700101	20991231	
+3007930		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3008223		Measurement	LOINC	Clinical Observation	S		19700101	20991231	
+3008342		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3009094		Measurement	LOINC	Clinical Observation	S		19700101	20991231	
+3009744		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3010421		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3011904		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3012030		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3012501		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3012888		Measurement	LOINC	Clinical Observation	S		19960906	20991231	
+3013290		Measurement	LOINC	Lab Test	S		19970812	20991231	
+3013502		Measurement	LOINC	Clinical Observation	S		19700101	20991231	
+3013650		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3013682		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3013721		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3014315		Measurement	LOINC	Clinical Observation	S		19960906	20991231	
+3014576		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3016293		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3016335		Measurement	LOINC	Clinical Observation	S		19700101	20991231	
+3016407		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3016723		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3018677		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3018913		Measurement	LOINC	Lab Test	S		20000510	20991231	
+3019550		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3019800		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3020460		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3020491		Measurement	LOINC	Lab Test	S		19980206	20991231	
+3020716		Measurement	LOINC	Clinical Observation	S		19700101	20991231	
+3020891		Measurement	LOINC	Clinical Observation	S		19960906	20991231	
+3021119		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3022217		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3022875		Measurement	LOINC	Clinical Observation	S		19700101	20991231	
+3023103		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3023599		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3024128		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3024171		Measurement	LOINC	Clinical Observation	S		19960906	20991231	
+3024561		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3024929		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3025315		Measurement	LOINC	Clinical Observation	S		19700101	20991231	
+3027018		Measurement	LOINC	Clinical Observation	S		19700101	20991231	
+3027315		Measurement	LOINC	Lab Test	S		19970812	20991231	
+3027597		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3027598		Measurement	LOINC	Clinical Observation	S		19960906	20991231	
+3033836		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3035995		Measurement	LOINC	Lab Test	S		19960815	20991231	
+3036277		Measurement	LOINC	Clinical Observation	S		19960906	20991231	
+3037511		Measurement	LOINC	Lab Test	S		19700101	20991231	
+3047181		Measurement	LOINC	Lab Test	S		20021014	20991231	
+4133843		Measurement	SNOMED	Procedure	S		20020131	20991231	
+4177224		Procedure	SNOMED	Procedure	S		20080131	20991231	
+4216643		Observation	SNOMED	Clinical Finding			20030731	20210131	U
+4230167		Procedure	SNOMED	Procedure	S		20020131	20991231	
+4266367		Condition	SNOMED	Disorder	S		20020131	20991231	
+4330442		Geography	SNOMED	Location	S		20020131	20991231	
+19003953		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19012598		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19014341		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19015726		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19016749		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19017067		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19018013		Drug	RxNorm	Ingredient	S		20051113	20991231	
+19020994		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19026674		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19027362		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19036781		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19037038		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19047423		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19049105		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19055153		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19061088		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19063454		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19063575		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19078219		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19084670		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19092139		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19093848		Drug	RxNorm	Ingredient	S		19700101	20991231	
+19137312		Drug	RxNorm	Ingredient	S		19700101	20991231	
+21490854		Measurement	LOINC	Clinical Observation	S		20160624	20991231	
+21492239		Measurement	LOINC	Clinical Observation	S		20160624	20991231	
+21492240		Measurement	LOINC	Clinical Observation	S		20160624	20991231	
+21492241		Measurement	LOINC	Clinical Observation	S		20160624	20991231	
+36303946		Measurement	LOINC	Clinical Observation	S		20180615	20991231	
+36684829		Measurement	SNOMED	Staging / Scales	S		20180901	20991231	
+37158404		Procedure	SNOMED	Procedure	S		20221130	20991231	
+38000280	Observation recorded from EHR	Type Concept	Observation Type	Observation Type		OMOP4822314	19700101	20991231	
+40762499		Measurement	LOINC	Clinical Observation	S		20100414	20991231	
+40762887		Measurement	LOINC	Lab Test	S		20100430	20991231	
+43534100		Measurement	LOINC	Lab Test	S		20130125	20991231	
+43542358	Physician administered drug (identified from EHR observation)	Type Concept	Drug Type	Drug Type		OMOP4822249	19700101	20991231	
+44777590	centimeter watercolumn	Unit	UCUM	Unit	S	cm[H2O]	19700101	20991231	
+44804452		Observation	SNOMED	Qualifier Value	S		20101001	20991231	
+44818518	Visit derived from EHR record	Type Concept	Visit Type	Visit Type		OMOP4822464	19700101	20991231	
+45775571		Drug	RxNorm	Ingredient	S		20141201	20991231	
+45892419		Drug	RxNorm	Ingredient	S		20150302	20991231	
+46221581		Drug	RxNorm	Ingredient	S		20150504	20991231	

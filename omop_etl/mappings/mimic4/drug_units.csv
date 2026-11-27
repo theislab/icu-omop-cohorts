@@ -1,0 +1,12 @@
+source_unit,factor,unit
+gm,1000.0,mg
+grams,1000.0,mg
+mcg,0.001,mg
+L,1000.0,mL
+mL,1.0,mL
+uL,0.001,mL
+cc,1.0,mL
+ml,1.0,mL
+mEq,1.0,10*-3.eq
+mEq.,1.0,10*-3.eq
+mEQ,1.0,10*-3.eq

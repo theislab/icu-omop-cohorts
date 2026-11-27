@@ -1,0 +1,79 @@
+Third-party material in this repository
+
+BlendedICU (https://github.com/USM-CHU-FGuyon/BlendedICU; Oliver et al., "Introducing the BlendedICU dataset, the
+first harmonized, international intensive care dataset", J Biomed Inform 2023, doi:10.1016/j.jbi.2023.104502). This
+repository began as a fork of BlendedICU. Its ETL has since been rewritten and contains no BlendedICU code, but some
+mapping tables were first taken from BlendedICU's files and then revised:
+- omop_etl/mappings/conditions.csv lists the ICD codes and concepts of BlendedICU's diagnoses.json;
+- omop_etl/mappings/drug_ingredients.csv keeps most ingredients of its medications_v11.json with their RxNorm concept
+  ids; the matching patterns and the further ingredients are ours;
+- omop_etl/mappings/mimic4/drug_units.csv follows its MIMIC-IV dose-unit conversions;
+- the variable names in omop_etl/mappings/*/measurements.csv, and some source items (ventilator settings, several
+  eICU items, some HiRID variables), follow its timeseries_variables.csv; their concepts follow OHDSI's MIMIC-IV ETL,
+  and most items ricu's concept dictionary.
+Under the MIT License, whose text is given at the end of this file:
+
+Copyright (c) 2023 Matthieu Oliver
+
+YAIB-cohorts (https://github.com/rvandewater/YAIB-cohorts). The antibiotic sets of cohorts/abx_sets.py are those
+of the abx_duration concept of its ricu extensions (ricu-extensions/configs/medications/concept-dict.json), and the
+KDIGO and urine-rate rules that cohorts/ reproduces are those of its callbacks (ricu-extensions/callbacks). Under
+the MIT License, whose text is given at the end of this file:
+
+Copyright (c) 2023 Robin van de Water, Patrick Rockenschaub
+
+HIRID-ICU-Benchmark (https://github.com/ratschlab/HIRID-ICU-Benchmark). The names of HiRID's pharma items in
+cohorts/abx_sets.py are those of its variable reference (preprocessing/resources/varref.tsv). Under the MIT
+License, whose text is given at the end of this file:
+
+Copyright (c) 2021, ETH Zurich, Biomedical Informatics Group; ratschlab
+
+OHDSI Common Data Model (https://github.com/OHDSI/CommonDataModel, Apache License 2.0).
+omop_etl/schema/OMOP_CDMv5.4_Field_Level.csv is its inst/csv/OMOP_CDMv5.4_Field_Level.csv of v5.4.0, modified: the
+field name offset of NOTE_NLP is unquoted (line 221), and the line endings are LF.
+
+OHDSI MIMIC (https://github.com/OHDSI/MIMIC, Apache License 2.0). The measurement concepts of omop_etl/mappings
+follow the concepts its MIMIC-IV ETL assigns (omop_etl/docs/OHDSI-MIMIC.md).
+
+ricu (https://github.com/eth-mds/ricu; Bennett et al., "ricu: R's interface to intensive care data", GigaScience
+2023, doi:10.1093/gigascience/giad041; GPL-3), which builds YAIB's cohorts. The cohort rules of cohorts/ reproduce
+ricu's behaviour, as we studied it in ricu's documentation, source and outputs; they are written anew in Python and
+SQL and contain no ricu code. cohorts/tests/ricu_labels.py and cohorts/tests/sofa.py reproduce ricu's SOFA and
+Sepsis-3 rules as references for the tests. The plausible ranges in cohorts/yaib_omop_crosswalk.py (RICU_BOUNDS) and
+the SOFA thresholds are values of ricu's concept dictionary and callbacks, and most source_label descriptions of
+omop_etl/mappings/eicu and omop_etl/mappings/hirid are its concept-dictionary descriptions. RICU.md lists where the
+cohorts follow ricu and where they differ.
+
+OMOP Standardized Vocabularies (OHDSI, https://athena.ohdsi.org). omop_etl/tests/fixtures/vocabulary holds the
+concept ids, domains, vocabularies and classes of the concepts the demo CDMs and the mapping tables use, with names
+and codes only for UCUM and the vocabularies OMOP generates itself. The UCUM codes and names: Copyright 1999-2024
+Regenstrief Institute, Inc. All rights reserved. Used under the UCUM License, Version 1.1
+(https://unitsofmeasure.org/license), provided "AS IS", without warranties or conditions of any kind.
+
+MIMIC-IV Clinical Database Demo (Johnson A, Bulgarelli L, Pollard T, Horng S, Celi LA, Mark R. MIMIC-IV Clinical
+Database Demo, version 2.2. PhysioNet 2023, doi:10.13026/dp1f-ex47). The stored outputs of
+cohorts/notebooks/omop_ehrdata_ehrapy_pypots.ipynb contain information from the MIMIC-IV Clinical Database Demo,
+which is made available under the Open Database License (ODbL) v1.0,
+https://opendatacommons.org/licenses/odbl/1-0/. The MIMIC-IV item ids and labels in omop_etl/mappings/mimic4 and
+cohorts/ are those of its d_items and d_labitems tables.
+
+
+The MIT License, for BlendedICU, YAIB-cohorts and HIRID-ICU-Benchmark (their copyright lines are above):
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

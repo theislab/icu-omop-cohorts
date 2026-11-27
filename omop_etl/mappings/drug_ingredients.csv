@@ -1,0 +1,150 @@
+ingredient,concept_id,pattern
+piperacillin,1746114,piperacillin|zosyn|tazobac|tazocin
+ampicillin,1717327,ampicillin|unasyn
+amoxicillin,1713332,amoxicillin|amoxi|augmentin|clamoxyl
+sulfamethoxazole,1836430,sulfamethoxazol|bactrim|septra|cotrimoxazol|co-trimoxazol|\bsmx
+insulin glargine,1502905,glargin|lantus|toujeo|abasaglar
+insulin lispro,1550023,lispro|humalog
+insulin aspart,1567198,\baspart|novolog|novorapid
+insulin detemir,1516976,detemir|levemir
+insulin isophane,46221581,\bnph\b|isophan|humulin n|insulatard|70/30
+insulin regular,1596977,insulin|actrapid|humulin r|novolin
+abciximab,19047423,abciximab|reopro
+acyclovir,1703687,acyclovir|aciclovir|zovirax
+alteplase,1347450,alteplase|actilyse|activase|cathflo|\bt-?pa\b
+amiodarone,1309944,amiodaron|cordarone|pacerone
+amlodipine,1332418,amlodipin|norvasc
+angiotensin II,963889,angiotensin|giapreza
+argatroban,1322207,argatroban|argatra
+hydrocodone,1174888,hydrocodon|vicodin|\bnorco\b
+oxycodone,1124957,oxycodon|oxycontin|oxynorm|percocet
+acetaminophen,1125315,acetaminophen|paracetamol|tylenol|benuron|dafalgan|perfalgan|ofirmev|\bapap\b
+aspirin,1112807,aspirin|acetylsalicyl|aspegic|\basa\b
+atorvastatin,1545958,atorvastatin|lipitor|sortis
+cisatracurium,19015726,cisatracurium|nimbex
+atracurium,19014341,\batracurium|tracrium
+azithromycin,1734104,azithromycin|zithromax
+bisacodyl,924939,bisacodyl|dulcolax
+bivalirudin,19084670,bivalirudin|angiomax
+bumetanide,932745,bumetanid|bumex|burinex
+captopril,1340128,captopril|capoten|lopirin
+carvedilol,1346823,carvedilol|coreg\b|dilatrend
+cefazolin,1771162,cefazolin|kefzol|ancef
+cefepime,1748975,cefepim|maxipime
+ceftazidime,1776684,ceftazidim|fortaz|fortam
+ceftriaxone,1777806,ceftriaxon|rocephin
+cefuroxime,1778162,cefuroxim|zinacef|zinat
+ciprofloxacin,1797513,ciprofloxacin|ciproxin|\bcipro\b
+clindamycin,997881,clindamycin|dalacin|cleocin
+clonazepam,798874,clonazepam|rivotril|klonopin
+clonidine,1398937,clonidin|catapres
+desmopressin,1517070,desmopressin|minirin|ddavp
+dexamethasone,1518254,dexamethason|fortecortin|decadron
+dexmedetomidine,19061088,dexmedetomidin|precedex|dexdor
+diltiazem,1328165,diltiazem|dilzem|cardizem
+diphenhydramine,1129625,diphenhydramin|benadryl
+dobutamine,1337720,dobutamin|dobutrex
+dopamine,1337860,\bdopamin|intropin
+enoximone,19063454,enoximon|perfan
+norepinephrine,1321341,norepinephrin|noradrenalin|levophed
+epinephrine,1343916,\bepinephrin|\badrenalin
+epoprostenol,1354118,epoprostenol|flolan|veletri
+eptifibatide,1322199,eptifibatid|integrilin
+erythromycin,1746940,erythromycin|erythrocin
+esmolol,19063575,esmolol|brevibloc
+felodipine,1353776,felodipin|plendil
+sufentanil,19078219,sufentanil|sufenta
+remifentanil,19016749,remifentanil|ultiva
+fentanyl,1154029,fentanyl|durogesic|sublimaze
+fluconazole,1754994,fluconazol|diflucan
+flumazenil,19055153,flumazenil|anexate|romazicon
+furosemide,956874,furosemid|lasix
+gentamicin,45892419,gentamicin|garamycin
+glycopyrronium,45775571,glycopyrr?o|robinul
+haloperidol,766529,haloperidol|haldol
+enoxaparin,1301025,enoxaparin|lovenox|clexane
+dalteparin,1301065,dalteparin|fragmin
+heparin,1367571,heparin|liquemin|calciparin
+hydromorphone,1126658,hydromorphon|dilaudid|palladon
+hydrocortisone,975125,hydrocortison|solu-cortef|solucortef
+hypromellose,902251,hypromellos
+ketamine,785649,ketamin|ketalar
+ketorolac,1136980,ketorolac|toradol
+lansoprazole,929887,lansoprazol|prevacid
+lepirudin,19092139,lepirudin|refludan
+levetiracetam,711584,levetiracetam|keppra
+levofloxacin,1742253,levofloxacin|levaquin|tavanic
+lidocaine,989878,lidocain|lignocain|xylocain|lidoderm
+linezolid,1736887,linezolid|zyvox
+lorazepam,791967,lorazepam|ativan|temesta
+meropenem,1709170,meropenem|merrem|meronem
+methadone,1103640,methadon
+methylprednisolone,1506270,methylprednisolon|solu-?medrol|\bmedrol
+metoclopramide,906780,metoclopramid|reglan|paspertin|primperan
+metronidazole,1707164,metronidazol|flagyl
+micafungin,19018013,micafungin|mycamine
+midazolam,708298,midazolam|versed|dormicum
+milrinone,1368671,milrinon|primacor|corotrop
+mirtazapine,725131,mirtazapin|remeron
+morphine,1110410,morphin|\bmst\b
+neostigmine,717136,neostigmin|prostigmin
+nesiritide,1338985,nesiritid|natrecor
+nicardipine,1318137,nicardipin|cardene
+nimodipine,1319133,nimodipin|nimotop
+nitroprusside,19020994,nitroprussi|nipride|nipruss|nitriat|sodium nitro\b
+nitroglycerin,1361711,nitroglycerin|glyceryl trinitrat|\bntg\b|nitroderm|perlinganit|nitrolingual|nitrostat|nitro-bid|nitro-dur
+octreotide,1522957,octreotid|sandostatin
+ondansetron,1000560,ondansetron|zofran
+pancuronium,19026674,pancuronium|pavulon
+pantoprazole,948078,pantoprazol|protonix|pantozol
+esomeprazole,904453,esomeprazol|nexium
+omeprazole,923645,omeprazol|prilosec
+famotidine,953076,famotidin|pepcid
+pentobarbital,730729,pentobarbital|nembutal
+phenobarbital,734275,phenobarbital|luminal
+phenylephrine,1135766,phenylephrin|neo-?synephrin
+phenytoin,740910,phenytoin|dilantin|phenhydan|fosphenytoin
+procainamide,1351461,procainamid|pronestyl
+propofol,753626,propofol|diprivan|disoprivan
+ranitidine,961047,ranitidin|zantac
+rocuronium,19003953,rocuronium|zemuron|esmeron
+simvastatin,1539403,simvastatin|zocor
+spironolactone,970250,spironolacton|aldactone
+succinylcholine,836208,succinylcholin|suxamethonium|anectine|lysthenon
+thiopental,700253,thiopental|pentothal
+tirofiban,19017067,tirofiban|aggrastat
+tramadol,1103314,tramadol|tramal|ultram
+tranexamic acid,1303425,tranexam|cyklokapron
+treprostinil,1327256,treprostinil|remodulin
+triamterene,904542,triamteren|dyrenium
+vancomycin,1707687,vancomycin|vancocin|\bvanco\b
+vasopressin,1507835,vasopressin|pitressin
+vecuronium,19012598,vecuronium|norcuron
+warfarin,1310149,warfarin|coumadin
+xylometazoline,943852,xylometazolin|otrivin
+amikacin,1790868,amikacin
+aztreonam,1715117,aztreonam|azactam
+daptomycin,1786617,daptomycin|cubicin
+caspofungin,1718054,caspofungin|cancidas
+voriconazole,1714277,voriconazol|vfend
+naloxone,1114220,naloxon|narcan
+atropine,914335,atropin
+adenosine,1309204,adenosin|adenocard|krenosin
+digoxin,1326303,digoxin|lanoxin
+labetalol,1386957,labetalol|trandate
+metoprolol,1307046,metoprolol|lopressor|beloc
+hydralazine,1373928,hydralazin|apresolin
+acetylcysteine,1139042,acetylcystein|mucomyst|fluimucil
+levothyroxine,1501700,levothyroxin|synthroid|eltroxin
+prednisone,1551099,prednison
+thiamine,19137312,thiamin|benerva|vitamin b1\b
+glucose,1560524,dextrose|glucose|\bd5w?\b|\bd10w?\b|\bd50w?\b
+potassium chloride,19049105,\bkcl\b|potassium chloride|k-cl|kalium-?chlorid
+potassium phosphate,19027362,potassium phosph|k-?phos|kalium-?phosphat
+magnesium sulfate,19093848,magnesium sulf|mgso4
+calcium gluconate,19037038,calcium gluconat|calciumgluconat
+calcium chloride,19036781,calcium chlorid|calciumchlorid
+sodium bicarbonate,939506,sodium bicarbonat|natriumbicarbonat|\bnahco3
+sodium chloride,967823,\bnacl|sodium chloride|\bsaline\b|natriumchlorid
+polyethylene glycol 3350,986417,polyethylene glycol|miralax|movicol|\bpeg\b
+albumin human,1344143,albumin

@@ -1,0 +1,26 @@
+# pre-commit install, once per clone; CI runs the same on every pull request (.github/workflows/ci.yml)
+repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.17.6
+    hooks:
+      - id: ruff-check
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-added-large-files
+        # the notebook stored with its outputs of the demo; ci/check_files.py caps it at 1 MB
+        exclude: ^cohorts/notebooks/omop_ehrdata_ehrapy_pypots\.ipynb$
+      - id: check-merge-conflict
+      - id: check-toml
+      - id: check-yaml
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+        # Athena's tab-separated format: an empty last column ends the row with a tab
+        exclude: ^omop_etl/tests/fixtures/vocabulary/
+  - repo: local
+    hooks:
+      - id: check-files
+        name: no data files, tables only in mappings/schema/fixtures, notebooks without outputs
+        entry: python ci/check_files.py
+        language: python

@@ -1,0 +1,75 @@
+[project]
+name = "icu-omop-cohorts"
+version = "0.1.0"
+description = "MIMIC-IV, eICU and HiRID into an OMOP CDM, and from the CDM the cohorts of the YAIB ICU benchmark, with ehrdata and ehrapy"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = "==3.13.*"
+dependencies = [
+    "omop-etl",
+    "ehrdata",
+    "ehrapy",
+    # the versions the cohorts were validated with
+    "anndata==0.13.3.post0",
+    # the lazy layer the ehrapy label tools read (cohorts/ehrdata_dynamics.py, label_view)
+    "dask[array]==2026.11.0",
+    "duckdb==1.5.3",
+    "fast-array-utils==1.4.1",
+    "h5py==3.16.0",
+    "numpy==2.1.0",
+    "pandas==2.3.3",
+    "pyarrow==23.0.1",
+    "pyyaml==6.0.3",
+    "scipy==1.17.1",
+    "sparse==0.18.0",
+    "xarray==2026.4.0",
+    "zarr==3.2.1",
+]
+
+[dependency-groups]
+dev = ["pytest", "ruff", "pre-commit", "nbclient", "nbformat", "ipykernel"]
+# the notebook in cohorts/notebooks: PyPOTS on CPU torch, and Jupyter
+notebook = ["pypots", "torch", "jupyterlab", "ipykernel", "ipywidgets"]
+
+[tool.uv]
+package = false
+default-groups = ["dev", "notebook"]
+
+[tool.uv.workspace]
+members = ["omop_etl"]
+
+[tool.uv.sources]
+omop-etl = { workspace = true }
+# Until their next releases: ehrdata's main (person_visit_detail, the interval fix) and ehrapy's ICU tools
+# (tl.sofa, sepsis3, kdigo, mark_events and pl.timeseries with obsm keys, events and markers, the stacked PRs).
+ehrdata = { git = "https://github.com/theislab/ehrdata", rev = "3aaae46db6f3aa8a69ed4511e7ffff61585791cc" }
+ehrapy = { git = "https://github.com/theislab/ehrapy", rev = "3aae20893c9d801bf9f7b47bcca0ffd95fe3ee23" }
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.pytest.ini_options]
+testpaths = ["omop_etl/tests", "cohorts/tests", "ci"]
+# ci/test_check_files.py imports its module from ci/
+pythonpath = ["ci"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+extend-exclude = ["internal"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+# not enforced yet: long lines and statements joined by semicolons (the code is not run through a formatter),
+# lambdas bound to names, and zip without strict
+ignore = ["E501", "E702", "E731", "B905"]
+
+[tool.ruff.lint.per-file-ignores]
+# the scripts and tests put their own folder on sys.path before importing its modules
+"cohorts/*.py" = ["E402"]
+"cohorts/tests/*.py" = ["E402"]
+# the notebook's setup cell filters warnings and extends sys.path before its imports
+"*.ipynb" = ["E402"]
